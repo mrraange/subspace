@@ -50,6 +50,16 @@
 
 <code>docker-compose up -d</code>
 
+
 просмотр логов
 
 <code>docker-compose logs --tail=1000 -f</code>
+
+Удаление 
+
+<code>cd $HOME/subspace</code>
+
+<code>docker-compose down -v</code>
+
+<code>cd $HOME && rm -rf $HOME/subspace/</code>
+
